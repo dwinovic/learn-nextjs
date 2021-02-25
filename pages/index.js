@@ -8,7 +8,6 @@ export default function Home({ articles }) {
         <title>Utama</title>
         <meta name="keywords" content="web development, programming" />
       </Head>
-      <h1>Learning Next JS</h1>
       <ArticleList articles={articles} />
     </div>
   );
